@@ -10,7 +10,7 @@ cd ~/.fonts
 # Download FiraCode from GitHub. 
 # TODO: Find a way to get the latest version of the font and then add it here
 
- # wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/FiraCode.zip
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/FiraCode.zip
 
 # Check if fontconfig is installed or not
 
