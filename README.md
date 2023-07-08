@@ -5,6 +5,7 @@
 
 1. [ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#install-and-set-up-zsh-as-default)
 2. [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation) 
+3. Any Nerd Font. [Preference is Fira Code (till now at least)](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/FiraCode.zip)
 
 ## File List
 
