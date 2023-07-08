@@ -1,3 +1,26 @@
+# Inserts a blank line between shell prompts
+add_newline = true
+
+# Change the default prompt format
+format = """\
+[╭╴](238)$os\
+$all[╰─](238)$character"""
+
+# Change the default prompt characters
+# [character]
+# success_symbol = "[](238)"
+# error_symbol = "[](238)"
+
+# No need for env variables as starship provides a way to show your current distro
+[os]
+format ='[$symbol](bold white)'   
+disabled = false
+
+
+[os.symbols]
+Windows = " "
+Ubuntu = ""
+
 [aws]
 symbol = "  "
 
@@ -72,47 +95,6 @@ symbol = " "
 
 [nodejs]
 symbol = " "
-
-[os.symbols]
-Alpaquita = " "
-Alpine = " "
-Amazon = " "
-Android = " "
-Arch = " "
-Artix = " "
-CentOS = " "
-Debian = " "
-DragonFly = " "
-Emscripten = " "
-EndeavourOS = " "
-Fedora = " "
-FreeBSD = " "
-Garuda = "󰛓 "
-Gentoo = " "
-HardenedBSD = "󰞌 "
-Illumos = "󰈸 "
-Linux = " "
-Mabox = " "
-Macos = " "
-Manjaro = " "
-Mariner = " "
-MidnightBSD = " "
-Mint = " "
-NetBSD = " "
-NixOS = " "
-OpenBSD = "󰈺 "
-openSUSE = " "
-OracleLinux = "󰌷 "
-Pop = " "
-Raspbian = " "
-Redhat = " "
-RedHatEnterprise = " "
-Redox = "󰀘 "
-Solus = "󰠳 "
-SUSE = " "
-Ubuntu = " "
-Unknown = " "
-Windows = "󰍲 "
 
 [package]
 symbol = "󰏗 "
