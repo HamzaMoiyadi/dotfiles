@@ -10,8 +10,6 @@ mkdir -p PLUGIN_DIR
 
 # ZSH Autosuggestions
 npx degit https://github.com/zsh-users/zsh-autosuggestions $PLUGIN_DIR/zsh-autosuggestions
-echo "source $PLUGIN_DIR/zsh-autosuggestions/zsh-autosuggestions.zsh" >> $HOME/.zshrc
 
 # ZSH Syntax Highlighting
 npx degit https://github.com/zsh-users/zsh-syntax-highlighting.git $PLUGIN_DIR/zsh-syntax-highlighting
-echo "source $PLUGIN_DIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> $HOME/.zshrc

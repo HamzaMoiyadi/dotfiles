@@ -12,6 +12,7 @@ plugins=(git nvm)
 # ZSH Autosuggestions: https://github.com/zsh-users/zsh-syntax-highlighting 
 [[ -f $ZSH_PLUGINS/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]] && source $ZSH_PLUGINS/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# Export NVIM Directory
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -20,4 +21,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Starship
 eval "$(starship init zsh)"
+
+# Zoxide
 eval "$(zoxide init zsh)"
