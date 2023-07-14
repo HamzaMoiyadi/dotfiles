@@ -4,4 +4,5 @@
 alias python=python3
 alias npmd="npm run dev"
 alias vim=nvim
-alias ls="exa --header --icons -l"
+alias ls="exa --header --icons -la"
+alias nvim-config="nvim ~/.config/nvim/"
