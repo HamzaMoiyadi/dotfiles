@@ -30,5 +30,5 @@ These are fonts made specifically for developers. They have ligatures and icons 
 
 ### TODO
 
-[ ] Create private gists for the installation scripts, as keeping them in the `dotfiles` repo does not make sense thematically.
-[ ] Clean-up `windows-terminal-settings.jsonc`.
+- [ ] Create private gists for the installation scripts, as keeping them in the `dotfiles` repo does not make sense thematically.
+- [ ] Clean-up `windows-terminal-settings.jsonc`.

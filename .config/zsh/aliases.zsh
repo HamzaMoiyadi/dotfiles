@@ -2,9 +2,20 @@
 
 
 alias python=python3
-alias npmd="npm run dev"
 alias vim=nvim
-alias ls="exa --header --icons -la"
+alias ls="eza --header --icons -la"
 alias nvim-config="nvim ~/.config/nvim/"
 alias cd="z"
+
+alias npmd="npm run dev"
+
 alias yd="yarn dev"
+alias yt="yarn test"
+alias ys="yarn start"
+
+alias gc="git commit"
+alias ga="git add"
+alias gaa="git add ."
+alias gp="git push"
+alias gpo="git push -u origin"
+alias gmd="git merge development"
