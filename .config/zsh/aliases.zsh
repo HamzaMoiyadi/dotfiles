@@ -19,3 +19,5 @@ alias gaa="git add ."
 alias gp="git push"
 alias gpo="git push -u origin"
 alias gmd="git merge development"
+
+alias bund="bun dev"
